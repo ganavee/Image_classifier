@@ -1,0 +1,218 @@
+/*.container-fluid {
+	border: 2px solid red;
+	
+	
+}
+
+.page-header {
+	border: 2px solid green;
+	
+}
+
+.jumbotron {
+	border: 2px solid blue;
+	
+}
+
+.outer-div {
+	border: 2px solid black;
+}
+
+.inner-div {
+	border: 2px solid green;
+}
+.card {
+	border: 2px solid pink;
+}*/
+
+.navbar-brand {
+	cursor: auto;
+}
+ 
+.jumbotron {
+	margin-top: 50px;
+	padding: 0;
+	margin-bottom: 0px;
+}
+
+.card {
+	margin: 4px;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.bigpixi-footer-social {
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+.bigpixi-footer-social__list-item {
+    display: inline-block;
+    margin-left: 16px;
+}
+.bigpixi-footer__icon-link {
+    display: inline-block;
+    -webkit-transition: 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+}
+.bigpixi-footer-social__icon {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+.bigpixi-footer-social__icon:hover {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #e2e2e2;
+    padding: 2px;
+    transition : .2s;
+}
+
+.outer-div {
+	padding-top: 30px;
+}
+ .inner-div {
+ 	margin: 0 auto;
+ 	width: 350px;
+ }
+
+.card {
+    width: 100%;
+}
+ .jumbotron img {
+ 	width: 100%;
+ 	
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.jumbotron img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/* button on image */
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}    
+  10%{color: purple;}   
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: blue;}
+    100%{color: orange;}    
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}    
+  10%{color: purple;}   
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: blue;}
+    100%{color: orange;}    
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}    
+  10%{color: purple;}   
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    100%{color: blue;}
+    100%{color: orange;}
+}
+
+body{
+  /*background-image: url(http://fjordstudio.dk/assets/img/bg/diamonds.png);*/
+}
+
+.container .btn:hover {
+  /*background-color: black;*/
+}
+
+/*food images*/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+/*.rowoffood::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.rowoffood1 {
+    display: flex;
+    flex-direction: row;
+}
+.column1, .column2{
+    width: 33.33%;
+    padding: 5px;
+}
+
+.column1 {
+    float: left;
+}
+.column2 {
+    float: right;
+    margrin-left: 100px;
+}*/
+/* about us */
+
